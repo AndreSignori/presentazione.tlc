@@ -1,0 +1,19 @@
+Aprire una porta su un router significa configurare il port forwarding per consentire il traffico in entrata su una porta specifica verso un dispositivo nella rete locale. Ecco come fare:
+
+1. Accedere al router
+	•	Apri un browser web.
+	•	Digita l’indirizzo IP del router nella barra degli indirizzi (solitamente 192.168.1.1 o 192.168.0.1).
+	•	Accedi con il nome utente e la password del router (spesso sono admin/admin o admin/password, ma potrebbero essere diversi se sono stati cambiati).
+
+2. Trovare la sezione del Port Forwarding
+	•	Cerca una sezione chiamata Port Forwarding, Virtual Server, NAT, o Advanced Settings.
+	•	Se non la trovi subito, potrebbe essere sotto WAN Settings o Firewall.
+
+3. Configurare il Port Forwarding
+	•	Clicca su “Aggiungi nuova regola” o “Nuova voce”.
+	•	Inserisci i seguenti dati:
+	•	Nome regola: Qualcosa di riconoscibile (es. “Server Minecraft”).
+	•	Indirizzo IP locale: L’IP del dispositivo a cui vuoi inoltrare la porta (puoi trovarlo nelle impostazioni di rete del dispositivo o tramite il comando ipconfig su Windows o ifconfig su Linux/macOS).
+	•	Porta interna e porta esterna: Inserisci la porta che vuoi aprire (es. 25565 per un server Minecraft).
+	•	Protocollo: Seleziona TCP, UDP o entrambi (dipende dall’applicazione).
+	•	Abilita la regola e salva.
